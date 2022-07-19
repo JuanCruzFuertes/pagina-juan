@@ -20,9 +20,6 @@ border-left-width: 5px;
 
 }
 
-nav :hover{
-        transform: scale(1.25,1.25);
-        transition: all 1.5s;}
 
 ul{
 display: flex;
@@ -30,15 +27,19 @@ flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+
+}
+
+.titulo:hover {
+transition: all 1.5s;
 transform: scale(1.25,1.25);
 }
 
 
-.titulo :hover {/* Titulo */
+.titulo {/* Titulo */
 margin: 16px;
 padding: 16px;
-transform: scale(1.25,1.25);
-transition: all 1.5s;
+
 }
 
 
@@ -68,14 +69,17 @@ transform: scale(1.25,1.25);
 transition: all 2s;
 }
 
-.botones-media :hover {
+.botones-media:hover {
 background-image: linear-gradient (black);
 transform: scale(1.25,1.25);
 transition: all 2s;
+color: black;
 }
 
-li{
+li:hover{
 display: inline;
+transform: scale(1.25,1.25);
+transition: all 1.5s;
 }
 
 h2{ /* Letras para h2,h3,h4,h5,h6 */
@@ -223,6 +227,23 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 flex-direction: column}
+
+.JuanBooking:hover{
+transform: scale(1.25,1.25);
+}
+
+.alimmne:hover {
+transform: scale(1.25,1.25);
+}
+.alimmne2:hover {
+transform: scale(1.25,1.25);      
+}
+.juan:hover {
+transform: scale(1.25,1.25);
+transition: all 2s;
+}
+
+
 
 .booking__grid{
 display: grid;
