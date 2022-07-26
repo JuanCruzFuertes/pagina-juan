@@ -51,11 +51,13 @@ h1 {
   transform: scale(1.25, 1.25);
   transition: all 2s; }
 
-.botones-media:hover {
-  background-image: linear-gradient black;
+.botones-media {
+  width: 80px;
   transform: scale(1.25, 1.25);
-  transition: all 2s;
-  color: black; }
+  transition: all 1.5s; }
+
+.img__icon {
+  width: 80px; }
 
 li:hover {
   display: inline;
@@ -142,16 +144,6 @@ p {
   flex-direction: column;
   justify-content: flex-start; }
 
-.video__principal {
-  /* Video Youtube */
-  margin: 16px;
-  padding: 16px;
-  width: 600px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .header__list {
   /*lista menu*/
   list-style: none;
@@ -169,19 +161,28 @@ p {
 .header__item {
   text-decoration: none; }
 
-.copryght__footer {
-  /* Copryght */
-  margin: 50px 50px;
+.iconos__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.iconos__redes {
+  width: 70px;
   padding: 16px;
-  font-family: 'Anek Malayalam', sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  line-height: 20px; }
+  display: flex;
+  flex-direction: row; }
 
 .newsletter__form {
   /* Newsletter */
   margin: 20px;
   padding: 20px; }
+
+.info__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
 
 .agency__name {
   /* Footer Contacto */
