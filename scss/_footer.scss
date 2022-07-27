@@ -1,0 +1,17 @@
+
+    .footer {
+        &__info{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;  }
+    
+                            &_name{/* Footer Contacto */
+                            margin: 20px;
+                            padding: 0px;
+                            }
+                            &__derechos {
+                            font-family: 'Anek Malayalam', sans-serif;
+                            padding: 16px;
+                            margin: 0px;}
+                            }

@@ -1,0 +1,26 @@
+header {/* Imagen de Fondo Heder */
+    background-image: url("../Resource/fondo.jpg");
+    background-position: 5% 5%;
+    border-top-width: 10px;
+    border-right-width: 5px;
+    border-bottom-width: 10px;
+    border-left-width: 5px;
+    
+                    &__list{/*lista menu*/
+                    list-style: none;
+                    font-size: 18px;
+                    padding: 0 50px;}
+                    
+                    &__item{
+                    padding: 20px;
+                    }
+                    
+                    &__item a{/* Items nav sin subrayado */
+                    text-decoration: none;
+                    top: 0px;
+                    }
+                    
+                    &__item
+                    {text-decoration: none;
+    }
+}
