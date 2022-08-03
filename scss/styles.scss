@@ -1,6 +1,8 @@
 @import "footer";
 @import "header";
 @import "mediaqueries";
+@import "variables";
+@import "operators";
 
 *{ /*margenes generales*/ 
     margin: 0px;
@@ -14,11 +16,7 @@
     }
     
     ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @extend .flex__aplicado;
     
     }
     
@@ -69,30 +67,21 @@
 
     
     h2{ /* Letras para h2,h3,h4,h5,h6 */
-    font-family: 'Anek Malayalam', sans-serif;
-    padding: 16px;
-    margin: 0px;
+        @extend .letras__aplicadas;
     }
     
     h3{
-    font-family: 'Anek Malayalam', sans-serif;
-    padding: 16px;
-    margin: 0px;}
+        @extend .letras__aplicadas;}
     
     h4{
-    font-family: 'Anek Malayalam', sans-serif;
-    padding: 16px;
-    margin: 0px;}
+        @extend .letras__aplicadas;}
     
     h5{
-    font-family: 'Anek Malayalam', sans-serif;
-    padding: 16px;
-    margin: 0px;}
+        @extend .letras__aplicadas;}
     
     h6{
-    font-family: 'Anek Malayalam', sans-serif;
-    padding: 16px;
-    margin: 0px;}
+        @extend .letras__aplicadas;
+    }
     
     a{/* Color para links y nav */
     color: rgb(224, 212, 212);;
@@ -124,15 +113,11 @@
     }
     
     .Frase { /* Letras y orden de la frase */
-    font-family: 'Anek Malayalam', sans-serif;
+    @extend .letras__aplicadas;
     font-size: 16px;
     word-spacing: 1px;
     line-height: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;}
+    @extend .flex__aplicado;}
     
 
     .newsletter__form {/* Newsletter */
@@ -143,10 +128,7 @@
 
 
     .footer__iconos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
+        @extend .flex__aplicado;
 }
     .footer__redes {
         width: 70px;
@@ -160,14 +142,10 @@
     }
     
     .texto__booking{
-    font-family: 'Anek Malayalam', sans-serif;
-    padding: 16px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column}
+    @extend .letras__aplicadas;
+    @extend .flex__aplicado;
+    
+}
 
     .carousel_altura {
     height: 700px;
