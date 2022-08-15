@@ -14,12 +14,6 @@
   padding: 16px;
   margin: 0px; }
 
-.btn-secondary {
-  padding: 15px; }
-
-.btn {
-  padding: 15px; }
-
 header {
   /* Imagen de Fondo Heder */
   background-image: url("../Resource/fondo.jpg");
@@ -61,6 +55,18 @@ header {
   font-family: 'Anek Malayalam', sans-serif;
   padding: 16px;
   margin: 0px; }
+
+.color-facebook {
+  background-color: lightblue; }
+
+.color-Instagram {
+  background-color: pink; }
+
+.color-youtube {
+  background-color: red; }
+
+.color-soundcloud {
+  background-color: orange; }
 
 * {
   /*margenes generales*/

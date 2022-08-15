@@ -12,3 +12,19 @@
     margin: 0px;
 
 }
+
+
+$redes:(
+    facebook: lightblue,
+    Instagram: pink,
+    youtube: red,
+    soundcloud: orange,
+);
+
+@each $name, $color in $redes {
+    .color-#{$name} {
+        background-color: #{$color};
+    }
+    
+    
+}
