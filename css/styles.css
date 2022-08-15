@@ -44,6 +44,7 @@ header {
   ul {
     flex-direction: column; } }
 
+/*ended*/
 .flex__aplicado, ul, .Frase, .footer__iconos, .texto__booking {
   display: flex;
   flex-direction: row;
@@ -56,6 +57,7 @@ header {
   padding: 16px;
   margin: 0px; }
 
+/*mapas*/
 .color-facebook {
   background-color: lightblue; }
 
@@ -68,6 +70,7 @@ header {
 .color-soundcloud {
   background-color: orange; }
 
+/*mixins*/
 * {
   /*margenes generales*/
   margin: 0px;
