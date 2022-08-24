@@ -2,9 +2,8 @@
     .footer {
         &__info{
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;  }
+            @include flex (column, center, center);
+                }
     
                             &_name{/* Footer Contacto */
                             margin: 20px;
