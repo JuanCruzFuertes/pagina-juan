@@ -180,3 +180,16 @@ p {
 .carousel_altura {
   height: 700px;
   width: 400px; }
+
+  .nextgigs {
+    display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.info__booking{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

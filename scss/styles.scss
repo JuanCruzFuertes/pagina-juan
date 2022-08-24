@@ -149,10 +149,17 @@
     width: 70%;
     }
     
-    .texto__booking{
-    @extend .letras__aplicadas;
-    @extend .flex__aplicado;
-    
+    .info__booking{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.nextgigs {
+    display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
     .carousel_altura {
